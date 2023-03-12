@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: none;
+    background-color: #eff0f3;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar .navbar-nav a{
+    color: #0d0d0d;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover{
+    color: #ff8e3c;
+    transition: 0.2s linear;
+}
+
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 50px;
+    margin-top: 40px;
+    padding: 30px 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card-image {
+    flex: 0 0 150px;
+    padding: 20px;
+
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.card-content {
+    flex: 1;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card-content h2 {
+
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.card-content p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card-buttons {
+    display: flex;
+}
+
+.card-buttons button {
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    Margin-top: 10PX;
+}
+
+.card-buttons button:first-child {
+
+    background-color: #ff8e3c;
+    color: #fff;
+}
+
+.card-buttons button:first-child:hover {
+    background-color: #ff8e3c;
+    color: #333;
+    border: 1px solid#333;
+}
+
+.card-buttons button:last-child {
+    margin-right: 0;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid#333;
+}
+
+.card-buttons button:last-child:hover {
+
+    background-color: #ff8e3c;
+    color: #333;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.biodata {
+    border-left: 1px solid;
+    padding: 10px 15px;
+    width: 500px;
+    margin-right: 450px;
+    margin-left: 20px;
+}
+
+.tdbio {
+    padding-left: 20px;
+
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 1350px;
+
+
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #fffF;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #333;
+}

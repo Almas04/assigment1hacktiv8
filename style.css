@@ -1,0 +1,105 @@
+.navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+.navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-nav .btn-login {
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #ed7966;
+    color: #ed7966;
+}
+
+.navbar-nav .btn-login:hover {
+    margin-right: 10px;
+    background-color: #ed7966;
+    color: #fff;
+}
+
+.navbar-nav .btn-daftar {
+    background-color: #ed7966;
+    color: #fff;
+}
+
+.navbar-nav .btn-daftar:hover {
+    background-color: #ed7966;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.jumbotron {
+    padding: 20px;
+    background-image: url('img/kode.jpg');
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jumbotron h1,
+  .jumbotron p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .jumbotron .btn-primary {
+    margin-top: 50px;
+    background-color: #ed7966;
+    color: #fff;
+  }
+  
+  .jumbotron .btn-primary:hover {
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #ed7966;
+    color: #ed7966;
+  }
+
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .card-title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  .btn-custom {
+    background-color: #ed7966;
+    color: #fff;
+    border: none;
+  }
+  
+  .footer {
+    padding: 20px 0;
+    background-color: #303179;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .container {
+    max-width: 960px;
+
+}
